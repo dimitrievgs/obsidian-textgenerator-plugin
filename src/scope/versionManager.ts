@@ -27,7 +27,7 @@ export default class VersionManager {
   async updateFromV0_3To0_4() {
     this.plugin.settings.version = this.currentVersion;
     if (this.plugin.settings.endpoint) {
-      if (this.plugin.settings.endpoint == "https://api.openai.com") {
+      if (this.plugin.settings.endpoint == "https://api.proxyapi.ru/openai") {
         this.plugin.settings.endpoint = this.plugin.defaultSettings.endpoint;
       }
     }

@@ -8,7 +8,7 @@ import Input from "../../components/input";
 export const WhisperProviderName = "whisper";
 
 const default_values = {
-  base_path: "https://api.openai.com/v1",
+  base_path: "https://api.proxyapi.ru/openai/v1",
 };
 
 export default function WhisperProviderSetting(props: { register: Register }) {

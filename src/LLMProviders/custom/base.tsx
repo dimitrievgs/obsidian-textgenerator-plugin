@@ -40,7 +40,7 @@ test4`,
 ];
 
 const default_values = {
-  endpoint: "https://api.openai.com/v1/chat/completions",
+  endpoint: "https://api.proxyapi.ru/openai/v1/chat/completions",
   handlebars_headers_in: `{
       "Content-Type": "application/json",
       "authorization": "Bearer {{api_key}}"

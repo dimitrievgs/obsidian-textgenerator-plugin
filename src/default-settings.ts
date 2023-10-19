@@ -4,7 +4,7 @@ import { TextGeneratorSettings } from "./types";
 
 const DEFAULT_SETTINGS: TextGeneratorSettings = {
   version: pkg.version as any,
-  endpoint: "https://api.openai.com/v1",
+  endpoint: "https://api.proxyapi.ru/openai/v1",
   models: [],
   api_key: "",
   encrypt_keys: false,

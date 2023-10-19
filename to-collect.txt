@@ -1,0 +1,21 @@
+data.json
+styles.css
+main.js
+manifest.json
+
+---
+
+nvm
+https://github.com/coreybutler/nvm-windows
+
+---
+
+node 18.18.2
+
+---
+
+npm install --legacy-peer-deps
+
+---
+
+npm run build

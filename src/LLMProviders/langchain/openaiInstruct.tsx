@@ -16,7 +16,7 @@ import debug from "debug";
 const logger = debug("textgenerator:llmProvider:openaiInstruct");
 
 const default_values = {
-  basePath: "https://api.openai.com/v1",
+  basePath: "https://api.proxyapi.ru/openai/v1",
 };
 
 const id = "OpenAI Instruct (Langchain)" as const;
